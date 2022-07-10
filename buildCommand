@@ -1,0 +1,1 @@
+g++ -std=c++17  main.cpp src/ControllerInterface.cpp src/Controller.cpp src/ObjectFactory.cpp  src/ControllerFactory.cpp src/Position.cpp src/OverlapStrategyInterface.cpp src/RenderUtils.cpp src/OverlapStrategyFactory.cpp src/StrictStrategy.cpp src/Primitive.cpp src/ObjectInterface.cpp -o test -I include/ 
